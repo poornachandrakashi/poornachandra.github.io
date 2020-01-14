@@ -1,0 +1,12 @@
+		<div class="clear"></div>
+				<?php if( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar') ) : ?>
+			
+					<div class="side_box">
+						
+					</div><!--//side_box-->
+					
+					<div class="side_box">
+						
+					</div><!--//side_box-->				
+					
+				<?php endif; ?>
